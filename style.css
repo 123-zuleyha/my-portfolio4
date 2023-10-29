@@ -1,0 +1,145 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+ 
+ 
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(arkaplan.jpg.jpg)  ;
+    height: 90vh;
+    background-size: 100% 100%;
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(12, 82, 122, 0.4);
+}
+
+
+
+.navbar .logo{
+    display: inline-block;
+    font-size: 40PX;
+    margin-left: 100px;
+    margin-top: 35px;
+    color: white;
+}
+
+.navbar.logo a{
+    text-decoration: none;
+    font: size 100px;
+    font-family:sans-serif;
+    color: #f3f3f3;;
+}
+
+
+.logo .photo img {
+    width: 85%;
+    border-radius: 15px;
+    margin-top: 50px; /* Öteleme miktarını ayarlayabilirsiniz */
+}
+
+
+
+.photo p {
+    position: absolute; /* Metni resmin üstüne yerleştirin */
+    top: 0; /* Metni yukarıda başlatın */
+    left: 450px; /* Metni resmin sağında başlatın */
+    background: rgba(236, 75, 47, 0.7); /* Arkaplan rengi ekleyin */
+    color: white; /* Metin rengi */
+    padding: 10px; /* Metin etrafına boşluk ekleyin */
+    border-radius: 0 15px 15px 0; /* Köşeleri yuvarlatın */
+    margin-top: 15%;
+}
+
+
+
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+     padding: 6px 13px;
+     font-family: Roboto;
+     transition: .5s;
+     
+}
+   .navbar ul li a.active,
+   .navbar ul li a:hover{
+    background: #ff6e00;
+    border-radius: 2px;
+
+}
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color:#fff ;
+    font: size 50px; ;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center .buttons{
+    margin: 100px 300px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(22, 19, 192);
+    border: solid 1px rgb(137, 143, 218);
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5s;
+
+}
+
+.buttons button:hover{
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
